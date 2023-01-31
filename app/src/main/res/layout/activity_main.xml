@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/Darood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Darood Count"
+        android:inputType="text"
+        android:maxLines="1"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/kalma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kalma Count"
+        android:inputType="number"
+        android:maxLines="1"
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/AstaghfarCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Astaghfar Count"
+        android:inputType="number"
+        android:maxLines="1"
+        android:minHeight="48dp" />
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="Enter Date to Search"/>
+    <Button
+        android:id="@+id/ShowData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Data" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="365dp" />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MidPreparation</string>
+    <string name="incButton">Increment</string>
+</resources>
